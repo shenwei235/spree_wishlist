@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_wishlist'
-  s.version     = '2.2'
+  s.version     = '2.3'
   s.summary     = 'Add wishlists to Spree'
   s.homepage    = 'https://github.com/spree/spree_wishlist'
   s.required_ruby_version = '>= 1.8.7'
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_paths = ["lib"]
 
-  s.add_dependency 'spree_core', '~> 2.2.0'
+  s.add_dependency 'spree_core', '~> 2.3'
 
   s.add_development_dependency 'factory_girl', '~> 4.4'
   s.add_development_dependency 'ffaker'
